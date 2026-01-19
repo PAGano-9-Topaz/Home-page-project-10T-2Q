@@ -1,0 +1,53 @@
+body {
+ background-image: url(background.png);
+	background-size: cover;
+	background-attachment:fixed ;
+} 
+.Navname {
+	animation: bounceInLeft;
+	animation-duration: 1s;
+}
+.Photo1 {
+	width: 80px;
+    padding: 5%;
+
+}
+
+.photo2 {
+    width: 2%;
+}
+
+.photo3 {
+    border-radius:10px;
+}
+
+.Welcome2 {
+	background: rgba(0%, 0%, 0%, .7);
+	border-radius: 10px;
+}
+
+.thing {
+    display: flex;
+}
+
+.crystal {
+    background:
+    rgba(244, 162, 79,1.0);
+    backdrop-filter: blur(10px);
+    padding:2%;
+    border-bottom: black solid 5px;
+}
+
+.crystalclear {
+    background:
+    rgba(233, 212, 191, 0.2);
+    backdrop-filter: blur(10px);
+    padding-top:2%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:13%;
+}
+
+.coloredtext {
+    color: black;
+}
